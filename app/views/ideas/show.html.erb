@@ -1,0 +1,10 @@
+<h1>Bookmark #<%= @idea.id %></h1>
+
+<div>
+  <strong>Bookmark</strong>:<br />
+  <p><%= @idea.name %></p>
+</div>
+
+<a href="/ideas/<%= @idea.id %>/edit">Edit</a> |
+<a href="/ideas/<%= @idea.id %>/destroy">Destroy</a> |
+<a href="/ideas/<%= @idea.id %>/add">Add</a>
